@@ -1,0 +1,45 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1090px;
+  margin: auto;
+  /* border: 2px solid red; */
+  width: 100%;
+}
+
+.nav_list a {
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.nav_list {
+  /* border: 2px solid red; */
+  align-items: center;
+  display: flex;
+  padding-right: 10px;
+}
+.nav_list a:hover {
+  cursor: pointer;
+  color: #df4300;
+}
+.nav_list button {
+  background-color: #eb4600;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px 0px #eb4600;
+}
+.nav_list button a {
+  color: white;
+}
+.nav_list button:hover {
+  background-color: #e5a58a;
+  transition: 0.9s;
+}
+
+.nav_left p {
+  letter-spacing: 9px;
+  padding-left: 25px;
+  padding-top: -100px;
+}
