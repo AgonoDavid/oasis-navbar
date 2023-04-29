@@ -31,9 +31,9 @@ const Navbar = () => {
         </ul>
         <div className="toggle-icon" onClick={handletoggle}>
           {toggle ? (
-            <Icon icon={x} size={28} />
+            <Icon icon={x} size={28} className="icon-style" />
           ) : (
-            <Icon icon={menu} size={28} />
+            <Icon icon={menu} size={28} className="icon-style" />
           )}
         </div>
       </nav>
